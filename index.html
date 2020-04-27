@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github API Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+</body>
+</html>
+
+<body>
+    <section class="container">
+        <h1>Github API Repository Project</h1>
+
+        <form id="js-form" class="search-form css-search">
+            <label id="search-label" for="username">Enter a GitHub handle:</label>
+            <input type="text" name="username" id="js-username username" class="js-username css-search" required>
+            <button type="submit" id="find-btn" class="css-search">List Repos!</button>
+        </form>
+        <main>
+            <div class="flex-container">
+                <section class="js-results results hidden"></section>
+            </div>
+        </main>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
